@@ -1,0 +1,21 @@
+cat > .gitignore <<'EOF'
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+.env
+
+# Editors
+.vscode/
+.idea/
+
+# Test caches
+.pytest_cache/
+EOF
